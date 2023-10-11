@@ -6,7 +6,7 @@ const Navbar = () => {
         <div>
             <div className="flex justify-between text-white bg-blue-950 p-4 px-10">
                 <Link to="/" className="text-3xl font-semibold">Cate</Link>
-                <div className="grid grid-cols-4">
+                <div className="grid grid-cols-4 gap-8">
                     <Link to="/">Home</Link>
                     <Link to="/about">About</Link>
                     <Link to="/blog">Blog</Link>
