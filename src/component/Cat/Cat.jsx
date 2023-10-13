@@ -11,7 +11,7 @@ const Cat = (props) => {
                 <h2>Cat Name :<span className="text-2xl font-bold"> {cat_name}</span> </h2>
                 <h2>Cat Age :{cat_age} </h2>
                 <h3>Price:<span className="text-xl font-bold"> {price}</span> </h3>
-                <Link to="/" className={newLocal} >Learn More</Link>
+                <Link to="/catDetails" className={newLocal} >Learn More</Link>
             </div>
         </div>
     );

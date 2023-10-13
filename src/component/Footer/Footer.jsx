@@ -8,9 +8,9 @@ const Footer = () => {
         <div className="p-32 bg-blue-950 text-white text-sm text-center">
             <h2 className="p-6">@Dont Copy the Page</h2>
             <hr />
-            <div className="flex justify-center items-center gap-2 p-8">
-                <Link to="/"><img className="w-10" src={img1} alt="" /></Link>
-                <Link to="/"><img className="w-10" src={img2} alt="" /></Link>
+            <div className="flex justify-center items-center gap-4 p-8">
+                <Link to="/"><img className="w-8" src={img1} alt="" /></Link>
+                <Link to="/"><img className="w-8" src={img2} alt="" /></Link>
                 <Link to="/"><img className="w-10" src={img3} alt="" /></Link>
                 
             </div>
