@@ -1,9 +1,9 @@
 [
   {
     "id": 1,
-    "img": "",
-    "cat-name": "Lofy",
-    "cat_age": "",
+    "img": "https://plus.unsplash.com/premium_photo-1677101221533-52b45823a2dc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80",
+    "cat_name": "Calico",
+    "cat_age": "1year",
     "cat_type": "Male",
     "price": "10k-15k",
     "cat_description": " A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
@@ -17,10 +17,27 @@
     }
   },
   {
-    "id": 1,
-    "img": "",
-    "cat-name": "Lofy",
-    "cat_age": "",
+    "id":2,
+    "img": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2043&q=80",
+    "cat_name": "Rijeka",
+    "cat_age": "8 month",
+    "cat_type": "female",
+    "price": "8k-10k",
+    "cat_description": " A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+    "responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+    "educational_requirements": "Bachelor degree to complete any reputational university.",
+    "experiences": "2-3 Years in this field.",
+    "contact_information": {
+      "phone": "01750-00 00 00",
+      "email": "info@gmail.com",
+      "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
+    }
+  },
+  {
+    "id":3,
+    "img": "https://images.unsplash.com/photo-1494256997604-768d1f608cac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1858&q=80",
+    "cat_name": "Tambivo",
+    "cat_age": "1.2 year",
     "cat_type": "Male",
     "price": "10k-15k",
     "cat_description": " A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
@@ -34,10 +51,10 @@
     }
   },
   {
-    "id": 1,
-    "img": "",
-    "cat-name": "Lofy",
-    "cat_age": "",
+    "id": 4,
+    "img": "https://images.pexels.com/photos/2071873/pexels-photo-2071873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "cat_name": "Porala",
+    "cat_age": "5 month",
     "cat_type": "Male",
     "price": "10k-15k",
     "cat_description": " A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
@@ -51,27 +68,10 @@
     }
   },
   {
-    "id": 1,
-    "img": "",
-    "cat-name": "Lofy",
-    "cat_age": "",
-    "cat_type": "Male",
-    "price": "10k-15k",
-    "cat_description": " A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-    "responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-    "educational_requirements": "Bachelor degree to complete any reputational university.",
-    "experiences": "2-3 Years in this field.",
-    "contact_information": {
-      "phone": "01750-00 00 00",
-      "email": "info@gmail.com",
-      "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
-    }
-  },
-  {
-    "id": 1,
-    "img": "",
-    "cat-name": "Lofy",
-    "cat_age": "",
+    "id":5,
+    "img": "https://images.pexels.com/photos/821736/pexels-photo-821736.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "cat_name": "Renget",
+    "cat_age": "1.6 year",
     "cat_type": "Male",
     "price": "10k-15k",
     "cat_description": " A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
