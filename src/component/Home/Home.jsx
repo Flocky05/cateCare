@@ -16,6 +16,7 @@ const Home = () => {
                     <img className="m-10 w-3/5" src={img} alt="" />
             </div>
             <div>
+                    <h2 className="text-3xl font-bold text-center uppercase">Some <span className="text-blue-500 ">Cats are</span> here</h2>
                 {
                     cats.map(cat=><Cat
                     key={cat.id}
