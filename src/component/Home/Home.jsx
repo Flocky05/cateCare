@@ -1,11 +1,22 @@
+
+import { useContext, useEffect } from "react";
 import { Link, useLoaderData } from "react-router-dom";
 import img from "../../assets/images/home/home.avif"
+import { contex } from "../../context/CatContex";
 import Cat from "../Cat/Cat.jsx";
 
+
 const Home = () => {
-    const cats=useLoaderData();
-    console.log(cats);
-    return (
+    const catys=useLoaderData();
+    const {setCaty}=useContext(contex);
+    useEffect(()=>{
+        setCaty(catys);
+    },[catys, setCaty])
+    console.log(catys);
+    const handelViewDetails=cat=>{
+        setCaty(cat);
+    }
+       return (
         <div>
             <div className="grid grid-cols-2 items-center p-10 lg:p-20">
                 <div className="p-20">
@@ -18,9 +29,10 @@ const Home = () => {
             <div>
                     <h2 className="text-3xl font-bold text-center uppercase">Some <span className="text-blue-500 ">Cats are</span> here</h2>
                 {
-                    cats.map(cat=><Cat
+                    catys.map(cat=><Cat
                     key={cat.id}
                     cat={cat}
+                    handelViewDetails={handelViewDetails}
                     ></Cat>)
                 }
             </div>

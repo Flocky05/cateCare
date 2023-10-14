@@ -10,6 +10,8 @@ import Home from './component/Home/Home';
 import About from './component/About/About';
 import CatDetails from './component/CatDetails/CatDetails';
 import CatContex from './context/CatContex';
+import CatDetail from './component/CatDetails/CatDetail';
+
 
 const router = createBrowserRouter([
   {
@@ -26,9 +28,12 @@ const router = createBrowserRouter([
         element:<About></About>
       },
       {
+        path:"/catDetail",
+        element:<CatDetail></CatDetail>
+      },
+      {
         path:"/catDetails",
         element:<CatDetails></CatDetails>,
-        loader:()=>fetch('cat.json')
       },
     ]
   },

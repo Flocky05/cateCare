@@ -1,23 +1,21 @@
-import { useContext, useEffect } from "react";
-import { useLoaderData } from "react-router-dom";
-import { contex } from "../../context/CatContex";
-import CatDetail from "./CatDetail.jsx";
+import { useContext} from "react";
+import { contex } from "../../context/CatContex.jsx";
+/* import CatDetail from "./CatDetail";
+ */
 
 
 const CatDetails = () => {
-    const cats=useLoaderData();
-    const {setCat}=useContext(contex);
-    useEffect(()=>{
-        setCat(cats);
-    },[])
+const {catys}=useContext(contex);
+console.log(catys);
     return (
         <div>
-            {
-                cats.map(cat=><CatDetail
-                key={cat.map}
-                cat={cat}
+            {/* {
+                catys.map(caty=><CatDetail
+                key={caty.id}
+                caty={caty}
                 ></CatDetail>)
-            }
+            } */}
+                <img src={catys.img} alt="" />
         </div>
     );
 };
