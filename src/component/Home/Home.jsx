@@ -2,6 +2,7 @@
 import { useContext, useEffect } from "react";
 import { Link, useLoaderData } from "react-router-dom";
 import img from "../../assets/images/home/home.avif"
+import img2 from "../../assets/images/gallary/img13.webp"
 import { contex } from "../../context/CatContex";
 import Cat from "../Cat/Cat.jsx";
 
@@ -14,6 +15,7 @@ const Home = () => {
     },[catys, setCaty])
     console.log(catys);
     const handelViewDetails=cat=>{
+        console.log(cat);
         setCaty(cat);
     }
        return (
@@ -24,7 +26,10 @@ const Home = () => {
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni quae exercitationem delectus impedit, sint nostrum dolorem quam a tempora quibusdam doloribus ipsum ex reiciendis eaque, eum maiores labore suscipit quis vitae incidunt vero quia praesentium atque. Dolore delectus corporis tempore!</p>
                     <Link className="bg-gradient-to-r from-cyan-500 to-blue-500 text-white px-8 py-2 rounded-md mt-4 inline-block">Learn More</Link>
                 </div>
-                    <img className="m-10 w-3/5" src={img} alt="" />
+                <div className="flex w-2/4 border-2">
+                    <img src={img} alt="" />
+                    <img src={img2} alt="" />
+                </div>
             </div>
             <div>
                     <h2 className="text-3xl font-bold text-center uppercase">Some <span className="text-blue-500 ">Cats are</span> here</h2>
